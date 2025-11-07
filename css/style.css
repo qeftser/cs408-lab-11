@@ -3,10 +3,44 @@ header{
    column-gap: 60px;
 }
 
+body {
+   background-color: black;
+   color: white;
+}
+
 h1{
   flex-grow: 2;
 }
 
+table {
+   table-layout: fixed;
+   width: 100%;
+   border-collapse:collapse;
+   border:1px solid cyan;
+}
+
+tr {
+   border:1px solid cyan;
+   border-collapse:collapse;
+   text-align: center;
+}
+
+td {
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+input[type="text"], textarea {
+   background-color: black;
+   border:1px solid cyan;
+   color: white;
+}
+
 #load-data {
    font-size: large;
+}
+
+#send_submit {
+   height: 100%;
+   width: 100%;
 }

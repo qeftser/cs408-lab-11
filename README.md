@@ -2,23 +2,29 @@
 
 ## Overview
 
-TODO: Write a project description
+This is a simple create-update-delete inventory management system.
+
+### Setup
+
+calling 
+```
+npm install
+```
+is all you need to do. Hopefully.
+
+### Running
+
+You need to run this in a web server of some kind to get the right headers
+to allow the CORS actions to succeed. Using the vscode live server plugin
+is sufficient to do this.
 
 ## Sources and Credits
 
-TODO: You must credit the sources and authors of any code, libraries, or other
-assets you use in your project. If you leave this section blank, your project
-will be considered in violation of the Academic Honesty policy unless you truly
-created everything from scratch with no outside help. If you need to use a
-source that you cannot credit (e.g. a classmate's work), you must get explicit
-permission from your instructor.
+All sources used in this project.
 
-A simple bulleted list below is sufficient. For example:
-
-- Bootstrap: https://getbootstrap.com/
-- jQuery: https://jquery.com/
-- Background image: https://unsplash.com/photos/...
-- Sound effects: https://freesound.org/people/...
-- Icons: https://fontawesome.com/
-- Fonts: https://fonts.google.com/
-- etc.
+- https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/table-layout
+- https://stackoverflow.com/questions/1763032/html-css-table-with-gridlines
+- https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
+- https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+- https://stackoverflow.com/questions/19882765/how-do-you-link-an-html-form-to-a-function-in-javascript
+- https://stackoverflow.com/questions/1000795/create-a-hidden-field-in-javascript

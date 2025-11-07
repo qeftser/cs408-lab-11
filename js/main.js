@@ -13,6 +13,6 @@ function loaded() {
  * This function returns the string 'hello'
  * @return {string} the string hello
  */
-export function sayHello() {
+function sayHello() {
     return 'hello';
 }

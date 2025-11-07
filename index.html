@@ -47,10 +47,10 @@
                 data_table.innerHTML = `
                  <thead>
                   <tr>
-                     <th>Id</th>
-                     <th>Name</th>
-                     <th>Price</th>
-                     <th>Action</th>
+                     <th scope="col">Id</th>
+                     <th scope="col">Name</th>
+                     <th scope="col">Price</th>
+                     <th scope="col">Action</th>
                   </tr>
                   </thead>
                   <tbody>
@@ -86,18 +86,53 @@
    <table id="data-table">
    </table>
 
-
-    <p id="lambda-info">
-        <!-- loaded with AJAX -->
-    </p>
+   <br>
+   <br>
 
 
-    <hr>
-    <input type='text' id='send_id' value='Placeholder'>
-    <input type='text' id='send_name' value='Placeholder'>
-    <input type='text' id='send_price' value='Placeholder'>
-    <input type='button' value='Add Item' id='send_submit'
-           onClick="sendCommand()">
+   <h2>Add Item</h2>
+   <table>
+       <tr>
+          <td>
+             ID
+          </td>
+          <td>
+             <label for="send_id" hidden>
+                id to send to server
+             </label>
+             <input type='text' id='send_id' placeholder='Placeholder'>
+          </td>
+       </tr>
+       <tr>
+          <td>
+             Name
+          </td>
+          <td>
+             <label for="send_name" hidden>
+                name to send to server
+             </label>
+             <input type='text' id='send_name' placeholder='Placeholder'>
+          </td>
+       </tr>
+       <tr>
+          <td>
+             Price
+          </td>
+          <td>
+             <label for="send_price" hidden>
+                price to send to server
+             </label>
+             <input class="input_field" type='text' id='send_price' placeholder='Placeholder'>
+          </td>
+       </tr>
+       <tr>
+          <td colspan="2">
+             <input type='button' value='Add Item' id='send_submit'
+                    onClick="sendCommand()">
+          </td>
+       </tr>
+   </table>
+    
 
     <script>
         function sendCommand() {
@@ -119,7 +154,6 @@
     </script>
 
 
-    <hr>
 </body>
 
 </html>
