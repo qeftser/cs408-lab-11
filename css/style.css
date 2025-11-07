@@ -1,4 +1,12 @@
+header{
+   display: flex;
+   column-gap: 60px;
+}
+
 h1{
-  border-color: #d3e644;
-  border-style: dashed;
+  flex-grow: 2;
+}
+
+#load-data {
+   font-size: large;
 }
